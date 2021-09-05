@@ -1,0 +1,9 @@
+<div class="gallery-title">
+    <p>THE FEATURED DESTINATIONS</p>
+</div>
+<div class="gallery-container">
+    <div class="gallery" *ngFor="let image of destinationList; let i = index">
+        <img src="{{ image.imageUrl }}" alt="destination" width="150" height="120"><br>
+        <span>{{ image.city }}</span>
+    </div>
+</div>

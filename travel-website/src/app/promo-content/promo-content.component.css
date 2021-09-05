@@ -1,0 +1,44 @@
+.promo-container{
+    position: relative;
+    width: 100vw;
+}
+
+.promo-container img{
+    display: none;
+  }
+  
+  .promo-container img.slider{
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .dot-pos{
+    display:inline
+  }
+
+  .asterisk-pos{
+    text-align:center
+  }
+
+.asterisk {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.prev-img, .next-img {
+    top: 50%;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.next-img{
+    right: 15px;
+    border-radius: 3px 0 0 3px;
+}

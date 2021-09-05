@@ -1,0 +1,43 @@
+
+.divider{
+    
+    width:100vw;
+    display:inline;
+}
+
+.box{
+    float: right;
+    width: 25vw;
+    height: 100px;
+    display: block;
+    background: linear-gradient(to right, #000000 0%, #3366cc 100%);
+}
+
+.first-box{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.second-box{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.third-box{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.fourth-box{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+

@@ -1,0 +1,9 @@
+.menu ul{
+    list-style: none;
+}
+
+.menu-pos li{
+    display:block;
+    float: right;
+    margin-right:15px;
+}

@@ -1,0 +1,28 @@
+.welcome-container{
+    display: inline;
+    width: 100vw;
+}
+
+.img-container{
+    padding: 0 15vw;
+}
+
+.content{
+    float: right;
+    padding-top: 35vh;
+}
+
+.content span{
+    font-size: 10px;
+}
+
+.submit-btn{
+    display:block;
+    background: linear-gradient(to right, #000000 0%, #3366cc 100%);
+    padding: 10px 20px;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+

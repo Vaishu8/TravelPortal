@@ -1,0 +1,15 @@
+<meta name="viewport" contet="width=device-width;initial-scale=1.0">
+<div class="promo-container">
+    <div *ngFor="let image of promoImageList; let i = index"> 
+        <div *ngIf="selectedImg === i">
+            <img class= "slider" src="{{ image.imageUrl }}" width="100%">
+            <a class="prev-img" (click)="showSlide(i-1)">&#10094;</a>
+            <a class="next-img" (click)="showSlide(i+1)">&#10095;</a>
+        </div>
+    </div>
+    <div class="asterisk-pos">
+        <div class="dot-pos" *ngFor="let image of promoImageList; let i = index"> 
+                <span class="asterisk" (click)="showSelectedImage(i)">*</span>
+         </div>
+    </div>
+</div>

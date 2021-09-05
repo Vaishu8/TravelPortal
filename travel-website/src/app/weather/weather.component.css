@@ -1,0 +1,58 @@
+.title{
+    width:100vw;
+    padding:10px 15px;
+    background-color: #282e54;
+    color:white;
+}
+
+.divider{
+    width:100vw;
+    display:inline;
+}
+
+.box{
+    float: right;
+    width: 25vw;
+    height: 100px;
+    display: block;
+}
+
+.first-box{
+    background-color: #0D7E88;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.second-box{
+    background-color: #D09378;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.third-box{
+    background-color: #405B5D;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fourth-box{
+    background-color:#74A748;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.temp-size{
+    font-size: 40px;
+}
+
+.text-size{
+    font-size: 25px;
+}
